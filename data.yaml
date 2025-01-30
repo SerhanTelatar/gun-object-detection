@@ -1,0 +1,14 @@
+path: C:\Users\telat\Documents\GitHub\gun-object-detection\data
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['gun']
+
+roboflow:
+  workspace: phillip-lavrador
+  project: 70k-guns
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/phillip-lavrador/70k-guns/dataset/5
